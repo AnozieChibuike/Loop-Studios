@@ -17,6 +17,12 @@ ScrollReveal().reveal('.hero', {
   delay: 1000,
   easing: 'ease-in',
 })
+ScrollReveal().reveal('.sidebar', {
+  origin: 'left',
+  distance: '40px',
+  delay: 200,
+  easing: 'ease-in',
+})
 ScrollReveal().reveal('img', {
   origin: 'bottom',
   distance: '40px',
