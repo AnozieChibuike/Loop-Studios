@@ -78,14 +78,14 @@ nav .nav-links {
   text-transform: capitalize;
   position: relative;
   padding-bottom: 0.5rem;
-  font-size: 1.1em;
+  font-size: 1.2em;
 }
 .hero {
   font-size: 3em;
   color: var(--white);
   text-transform: uppercase;
   border: 2px solid var(--white);
-  padding: 1.5rem;
+  padding: 1.2rem;
   margin: 8rem 0 0;
   line-height: 1.1;
   max-width: 500px;
@@ -112,7 +112,6 @@ nav .nav-links {
 .show-sidebar {
   transform: translateX(0);
 }
-
 @media screen and (min-width: 768px) {
   .sidebar {
     display: none;
@@ -236,7 +235,7 @@ section img {
 }
 .img-center div:hover .img-text {
   color: var(--black);
-  text-shadow: 0 0 15px var(--white);
+  text-shadow: 0 0 10px var(--white);
 }
 section button {
   text-transform: uppercase;
